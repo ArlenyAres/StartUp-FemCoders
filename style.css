@@ -94,3 +94,13 @@ main {
     font-weight: 400;
     font-family: Jost;
 }
+
+@media only screen and (max-width: 600px){
+    .btn-header{
+        display: none;
+    }
+
+    .header{
+        padding: 2rem 1rem;
+    }
+}
