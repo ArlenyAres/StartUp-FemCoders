@@ -1,0 +1,91 @@
+.header{
+    background-color: var(--pink-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 1rem;
+}
+
+.img-logo{
+    width: 4%;
+    margin-left: 2rem;
+}
+
+.btn-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.btn-us{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-contact{
+    background-color:  hsl(257, 33%, 35%, 0.5);
+    border: none;
+    width: 8rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+main {
+    margin: 3.8125rem auto;
+    display: flex;
+    justify-content: center;
+}
+.big-img {
+    display: inline-flexbox;
+    position: relative;
+    margin-right: 3.375rem;
+}
+.img-form {
+    width: 25.875rem;
+}
+.img-group {
+    width: 30.3125rem; 
+    position: absolute;
+    padding:0;
+    margin:0;
+    left: -2.875rem;
+    top: 2rem;
+    z-index: 3;
+}
+.description {
+    display: inline-flexbox;
+    margin-left: 3.375rem;
+    min-width: 6.0625rem;
+}
+.description h1 {
+    font-size: 78px;
+    margin-top: 1.875rem;
+    color:var(--pink-color);
+    width: 30.75rem;
+    height: 13.5625rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+.description p {
+    margin:0 0 1.875rem 0;
+    font-size: 1.5rem;
+}
+.description button {
+    background-color: var(--color-blue);
+    color:white;
+    width: 8.8887rem;
+    height: 3.292rem;
+    border-radius: 50px;
+    font-size: 1.25rem;
+}
