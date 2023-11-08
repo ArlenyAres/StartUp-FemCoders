@@ -94,3 +94,45 @@ main {
     font-weight: 400;
     font-family: Jost;
 }
+
+/*FOOTER DESKTOP*/
+footer {
+    background-color: var(--pink-color);
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-profile{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.img-profile {
+    margin: auto;
+    padding-top: 1em;
+    width: 50%;
+}
+
+.text-profile {
+    text-align: center;
+}
+
+.text-profile h3 {
+    font-size: 22px;
+    color: white;
+    padding-bottom: 0.1em;
+    font-weight:200;
+}
+
+.text-profile p {
+    font-size: 18px;
+    font-weight: 100;
+}
+.text-profile a {
+    color: black;
+    font-size: 40px;
+}
+
