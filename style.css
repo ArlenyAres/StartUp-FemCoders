@@ -1,0 +1,43 @@
+.header{
+    background-color: var(--pink-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 1rem;
+}
+
+.img-logo{
+    width: 4%;
+    margin-left: 2rem;
+}
+
+.btn-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.btn-us{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-contact{
+    background-color:  hsl(257, 33%, 35%, 0.5);
+    border: none;
+    width: 8rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+
