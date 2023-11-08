@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 @import 'style.css';
 
+:root{
+    --pink-color: #E19898;
+    --color-blue:#4D3C77;
+    --color-purple:#3F1D38;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
