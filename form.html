@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="base.css">
-    <title>Profile page</title>
+    <title>Form Page</title>
 </head>
 <body>
     <header>
@@ -16,19 +16,21 @@
         </div>
     </header>
     <main>
-        <section class="big-img">
-            <img src="assets/img/img frame.svg" class="img-form">
-            <img src="./assets/img/ada-lovelace.jpg" class="img-ada" height="250">
+        <section>
+            <h1>Contáctanos</h1>
         </section>
-        <section class="description-people">
-            <article class="description">
-                <h1>Nombre Apellido</h1>
-                <h2>Especialistas FullStack</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitt. In ultrices, libero commodo mollis imperdiet, nulla urna porttitor sem, vel dapibus libero arcu vitae diam. Maecenas id sollicitudin arcu. Pellentesque at ornare justo. Sed ultrices ex nec pulvinar tincidunt. Donec condimentum volutpat imperdiet. Vivamus mollis metus sit amet tellus ultricies, vitae rhoncus tortor congue. Donec a gravida neque.</p>
-            </article>
-            <div class="description-btn">
-                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
-                <button>Te llamamos</button>
+        <section>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Escribe tu nombre...">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Escribe tu email...">
+
+            <label for="message">Consulta</label>
+            <textarea id="message" placeholder="Escribe tu consulta..."></textarea>
+            <div class="form-buttons">
+                <button class="btn-submit">Enviar</button>
+                <button class="btn-cancel">Cancelar</button>
             </div>
         </section>
     </main>
