@@ -78,7 +78,6 @@ main {
 
 .description h1{
     width: 60%;
-
     font-size: 65px;
     font-weight: 400;
     color: var(--pink-color);
@@ -179,7 +178,7 @@ main {
         justify-content: center;
         padding: 1rem;
         width: 100%;
-        
+        height: auto;
     }
 
     .img-logo{
@@ -192,8 +191,7 @@ main {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-left:1.5rem;
-        
+        margin: auto;
     }
 
     .big-img{

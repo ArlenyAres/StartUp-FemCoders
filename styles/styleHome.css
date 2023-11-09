@@ -114,7 +114,8 @@ main {
     line-height: 2rem;
 }
 
-.description button {
+.description a{
+    display: block;
     background-color:  var(--color-blue);
     border: none;
     padding: .8rem 1rem;
