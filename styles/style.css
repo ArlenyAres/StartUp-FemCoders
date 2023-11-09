@@ -116,7 +116,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
     bottom: 0;
   
     

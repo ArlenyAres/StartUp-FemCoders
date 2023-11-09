@@ -1,18 +1,21 @@
 main {
     width: 100%;
-    display: flex;
     justify-content: center;
 }
 .main-top {
-    margin-top:0;
-    padding-top: 0;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 53px;
+    padding: auto;
 }
-
+header {
+    margin-bottom: 0;
+}
 .big-img-profile{
     width: 40%;
     display: flex;
     justify-content: center;
-    position: relative;
       
 }
 
@@ -20,9 +23,8 @@ main {
     width: 50%;
 }
 .big-img-profile{
-    width: 40vh;
     margin: auto;
-   
+    width: 40vh;
 }
 
 .profile-img{
@@ -75,12 +77,27 @@ main {
     height: 2.3rem;
     font-size: 1rem;    
 }
-
+footer {
+    display: none;
+}
 .description-btn a {
     font-size: 2rem;
     color: black;    
 }
-
+@media only screen and (min-width: 1025px){
+.big-img-profile {
+    position: relative;
+}
+}
+@media only screen and (max-width: 1025px) {
+    .main-bottom {
+        margin-bottom: 0;
+        padding-bottom:0;
+    }
+    footer {
+        display: none;
+    }
+}
 @media only screen and (max-width: 600px){
     main {
         width: 100%;
