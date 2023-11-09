@@ -4,13 +4,11 @@ main {
     justify-content: center;
 }
 
-
 .big-img-profile{
     width: 40%;
     display: flex;
     justify-content: center;
-    position: relative;
-      
+    position: relative; 
 }
 
 .description-people{
