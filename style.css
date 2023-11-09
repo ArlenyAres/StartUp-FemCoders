@@ -1,3 +1,4 @@
+
 .header{
     background-color: var(--pink-color);
     width: 100%;
@@ -40,75 +41,64 @@
     border: 1px solid white;
 }
 
-main {
-    margin: 3.8125rem auto;
+.main-info{
     display: flex;
-    justify-content: center;
-}
-.big-img {
-    display: inline-flexbox;
-    position: relative;
-    margin-right: 3.375rem;
-}
-.img-form {
-    width: 25.875rem;
-}
-.img-group {
-    width: 30.3125rem; 
-    position: absolute;
-    padding:0;
-    margin:0;
-    left: -2.875rem;
-    top: 2rem;
-    z-index: 3;
-}
-.description {
-    display: inline-flexbox;
-    margin-left: 3.375rem;
-    min-width: 6.0625rem;
-}
-.description h1 {
-    font-size: 78px;
-    margin-top: 1.875rem;
-    color:var(--pink-color);
-    width: 30.75rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-weight: 400;
-    line-height: 3.75rem;
-    font-family: Jost;
-}
-.description p {
-    margin:1.875rem 0 1.875rem 0;
-    font-size: 1.5rem;
-    font-family: Jost;
-}
-.description button {
-    background-color: var(--color-blue);
-    color:white;
-    width: 8.8887rem;
-    height: 3.292rem;
-    border: 0px;
-    border-radius: 50px;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-family: Jost;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem;
+    margin: auto;
 }
 
+
+.big-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+}
+
+.img-form{
+    width: 50vh;
+    position: absolute;
+}
+
+.img-group{
+    width: 55vh;
+    position: absolute;
+    
+}
+
+.description h1 {
+    font-size: 70px;
+    margin-top: 2rem;
+    color:var(--pink-color);
+    width: 30rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+.description p {
+    margin:1.875rem 0;
+    font-size: 1.5rem;
+
+}
 /*FOOTER DESKTOP*/
-footer {
+.profile {
     background-color: var(--pink-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
+    padding: 1rem;
+    
 }
 .footer-profile{
     display: flex;
-    width: 30%;
+    width: 25%;
     flex-direction: column;
-    margin-bottom: 1.5em;
+    
 }
 
 .img-profile {
@@ -137,3 +127,75 @@ footer {
     font-size: 40px;
 }
 
+@media only screen and (max-width: 600px){
+    
+  
+    .btn-header{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .img-logo{
+        width: 20%;
+        margin: auto;
+        
+    }
+    .big-img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .img-group{
+        width: 80%;
+        margin: auto;
+        left: auto;
+       
+    }
+    
+
+    .img-form{
+        width: 80%;
+        margin: auto;
+    }
+
+    .description{
+        width: 80%;
+        padding: 1rem;
+        height: 7rem;
+
+    }
+
+    .description h1{
+        width: 50%;
+        font-size: 50px;
+
+    }
+
+    .profile {
+        background-color: var(--pink-color);
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-basis: 5;
+        
+        
+    }
+
+
+
+}
