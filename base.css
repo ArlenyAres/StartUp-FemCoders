@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 @import 'style.css';
+@import 'style-profiles.css';
 @import 'form-style.css';
 
 :root{
@@ -16,6 +17,7 @@
 
 body{
     font-family: 'Jost', sans-serif;
+   
 }
 
 a{

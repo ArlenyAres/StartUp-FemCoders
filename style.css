@@ -1,4 +1,5 @@
 /*HEADER*/
+
 .header{
     background-color: var(--pink-color);
     width: 100%;
@@ -41,12 +42,21 @@
     border: 1px solid white;
 }
 
-/*MAIN*/
+.main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem;
+    margin: auto;
+}
 
-main {
-    margin: 3.8125rem auto;
+
+.big-img{
+    position: relative;
     display: flex;
     justify-content: center;
+    margin-left: 15rem;
 }
 
 .big-img {
@@ -60,33 +70,29 @@ main {
 .img-group {
     width: 30.3125rem; 
     position: absolute;
-    padding:0;
-    margin:0;
-    left: -2.875rem;
-    top: 2rem;
-    z-index: 3;
 }
-.description {
-    display: inline-flexbox;
-    margin-left: 3.375rem;
-    min-width: 6.0625rem;
+
+.img-group{
+    width: 55vh;
+    position: absolute;
+    
 }
 .description-h1 {
     font-size: 78px;
     margin-top: 1.875rem;
     color:var(--pink-color);
-    width: 30.75rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    width: 30rem;
     font-weight: 400;
-    line-height: 3.75rem;
-    font-family: Jost;
+    line-height: 4rem;
 }
+
 .description p {
-    margin:1.875rem 0 1.875rem 0;
+    margin:1.875rem 0;
     font-size: 1.5rem;
-    font-family: Jost;
+
 }
+
+/*revisar*/
 .description button {
     background-color: var(--color-blue);
     color:white;
@@ -99,59 +105,118 @@ main {
     font-family: Jost;
 }
 
-/*FORM PAGE*/
-.form-h1 {
-    color: #E19898;
-    font-size: 3rem;
-    font-weight: 400;
-    padding-right: 20rem;
-}
- .form-input {
+/*FOOTER DESKTOP*/
+.profile {
+    background-color: var(--pink-color);
+    width: 100%;
     display: flex;
-    font-size: 11px;
-    color: #4D3C77;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    
+}
+.footer-profile{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    
 }
 
-.form-left {    
-    width: 2.5rem;
-    padding-right: 14rem;
-
-}
-input, textarea {
-    font-family: Jost;
-    font-size: 9px;
-    border-radius: 15px;
-    background: rgba(225, 152, 152, 0.50);
-    color: rgba(0, 0, 0, 0.50);
-    margin: 0.2rem 0 0.5rem -0.4rem;
-    border: none;
-    padding: 5px;
-    width: 12rem;
-}
-.form-btn {
-    font-size: 3px;
-    padding-top: 1rem;
+.img-profile {
+    margin: auto;
+    padding-top: 1em;
+    width: 50%;
 }
 
-button {
-    font-family: Jost;
-    font-size: 0.7rem;
-    width: 5rem; 
-    margin-right: 0.4rem;
-    height: 2rem;
-}
-.btn-submit {
-    background-color: #4D3C77;
-    border-radius: 50px;
-    color: #FFF;
-    border: none;
-    padding: 0.3rem;
+.text-profile {
+    text-align: center;
 }
 
-.btn-cancel {
-    background: #E19898;
-    border-radius: 50px;
-    color: #FFF;
-    border: none;
-    padding: 0.3rem;
+.text-profile h3 {
+    font-size: 22px;
+    color: white;
+    padding-bottom: 0.1em;
+    font-weight:200;
+}
+
+.text-profile p {
+    font-size: 18px;
+    font-weight: 100;
+}
+.text-profile a {
+    color: black;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px){
+    
+  
+    .btn-header{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .img-logo{
+        width: 20%;
+        margin: auto;
+        
+    }
+    .big-img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .img-group{
+        width: 80%;
+        margin: auto;
+        left: auto;
+       
+    }
+    
+
+    .img-form{
+        width: 80%;
+        margin: auto;
+    }
+
+    .description{
+        width: 80%;
+        padding: 1rem;
+        height: 7rem;
+
+    }
+
+    .description h1{
+        width: 50%;
+        font-size: 50px;
+
+    }
+
+    .profile {
+        background-color: var(--pink-color);
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-basis: 5;
+        
+        
+    }
+
+}
 }
