@@ -6,11 +6,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .7rem 1rem;
+    padding: .2rem 1rem;
 }
 
 .img-logo{
-    width: 4%;
+    width: 7%;
     margin-left: 2rem;
 }
 
@@ -42,85 +42,89 @@
     border: 1px solid white;
 }
 
-.main-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+main {
+    width: 100%;
+}
+
+.main-top {
     width: 100%;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.big-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative;
     margin: auto;
 }
 
-
-.big-img{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-left: 15rem;
+.description{
+    width: 50%;
 }
-
-.big-img {
-    display: inline-flexbox;
-    position: relative;
-    margin-right: 3.375rem;
-}
-.img-form {
-    width: 25.875rem;
-}
-.img-group {
-    width: 30.3125rem; 
-    position: absolute;
+.img-form, .img-group{
+    width: 40vh;
 }
 
 .img-group{
-    width: 55vh;
-    position: absolute;
-    
+    margin-top: 2rem;
 }
-.description-h1 {
-    font-size: 78px;
-    margin-top: 1.875rem;
-    color:var(--pink-color);
-    width: 30rem;
+
+.description h1{
+    width: 60%;
+    font-size: 65px;
     font-weight: 400;
+    color: var(--pink-color);
     line-height: 4rem;
 }
 
-.description p {
-    margin:1.875rem 0;
-    font-size: 1.5rem;
-
+.description p{
+    font-size: 24px;
+    color: black;
+    line-height: 2rem;
 }
 
-/*revisar*/
 .description button {
-    background-color: var(--color-blue);
-    color:white;
+    background-color:  var(--color-blue);
+    border: none;
+    padding: .8rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+    font-size: 14px;
+    margin-top: 2rem; 
     width: 8.8887rem;
     height: 3.292rem;
-    border: 0px;
-    border-radius: 50px;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-family: Jost;
+    font-size: 1.2rem;    
 }
 
+.img-group{
+ position: absolute;
+}
+
+
 /*FOOTER DESKTOP*/
-.profile {
+
+.footer-mobile{
+    display: none;
+}
+.main-bottom {
     background-color: var(--pink-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
-    padding: 1rem;
+  
     
 }
 .footer-profile{
     display: flex;
-    width: 25%;
+    width: 20%;
     flex-direction: column;
-    
 }
 
 .img-profile {
@@ -151,6 +155,13 @@
 
 @media only screen and (max-width: 600px){
     
+    html{
+        position: relative;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
   
     .btn-header{
         display: none;
@@ -166,56 +177,61 @@
     .img-logo{
         width: 20%;
         margin: auto;
-        
     }
+
+    .main-top{
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
     .big-img{
+        width: 40%;
         display: flex;
         justify-content: center;
         margin: auto;
-      
-    }
-    .main{
-        display: flex;
-        flex-direction: column;
+        
     }
 
-
-    .img-group{
-        width: 80%;
-        margin: auto;
-        left: auto;
-       
-    }
-    
-
-    .img-form{
-        width: 80%;
+    .img-form, .img-group{
+        width: 30vh;
         margin: auto;
     }
 
-    .description{
-        width: 80%;
-        padding: 1rem;
-        height: 7rem;
-
-    }
-
-    .description h1{
-        width: 50%;
-        font-size: 50px;
-
-    }
-
-    .profile {
+    .main-bottom {
         background-color: var(--pink-color);
         width: 100%;
-        height: 7rem;
         display: flex;
         justify-content: space-between;
-        flex-wrap: nowrap;
-        flex-basis: 5;
-        
-        
+        flex-wrap: wrap;
+        position: static;
+        height: auto;   
     }
 
+    .footer-mobile{
+        position: stickygit;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--color-purple);
+        padding: 2rem;
+    }
+
+
+    .footer-profile{
+        display: flex;
+        width: 40%;
+        margin: 1rem
+    }
+    .img-profile {
+        margin: auto;
+        padding-top: 1em;
+        width: 100%;
+    }
 }

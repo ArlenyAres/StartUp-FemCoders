@@ -1,5 +1,24 @@
+.big-img-profile{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
 
-.big-img-profile {
+.description{
+    width: 50%;
+}
+.img-form-profile, .img-group-profile{
+    width: 40vh;
+}
+
+.img-group{
+    margin-top: 2rem;
+}
+
+
+/* .big-img-profile {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -39,7 +58,7 @@
     font-size: 1.0rem;
     font-family: Jost;
     padding: 0rem 10rem 1.5rem 0rem;
-}
+} */
 
 .description-btn {
     display: flex;
@@ -63,3 +82,4 @@
     color: black;
     font-size: 40px;
 }
+
