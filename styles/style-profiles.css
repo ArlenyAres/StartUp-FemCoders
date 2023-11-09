@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-    margin: auto;
-}
+      
+} 
 
 .description{
     width: 50%;
