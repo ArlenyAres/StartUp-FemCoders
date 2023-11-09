@@ -1,24 +1,4 @@
-.big-img-profile{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: auto;
-}
-
-.description{
-    width: 50%;
-}
-.img-form-profile, .img-group-profile{
-    width: 40vh;
-}
-
-.img-group{
-    margin-top: 2rem;
-}
-
-
-/* .big-img-profile {
+.big-img-profile {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -58,28 +38,4 @@
     font-size: 1.0rem;
     font-family: Jost;
     padding: 0rem 10rem 1.5rem 0rem;
-} */
-
-.description-btn {
-    display: flex;
 }
-
-.description-btn button {
-    background-color: var(--color-blue);
-    color:white;
-    width: 8rem;
-    padding: .5rem 1rem;
-    text-align: center;
-    border-radius: 2rem;
-    margin-left: 2em;
-    font-size: 14px;
-    border: 1px solid white;
-    
-}
-
-.description-btn i {
-    
-    color: black;
-    font-size: 40px;
-}
-
