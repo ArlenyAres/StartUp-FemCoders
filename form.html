@@ -16,23 +16,29 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1 class="form-h1">Contáctanos</h1>
-        </section>
-        <section>
-            <label for="name">Nombre</label>
-            <input type="text" id="name" placeholder="Escribe tu nombre...">
+        <div class="form-body">
+                <h1 class="form-h1">Contáctanos</h1>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Escribe tu email...">
+            <section class="form-input">
+                <div class="form-left">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" placeholder="Escribe tu nombre...">
 
-            <label for="message">Consulta</label>
-            <textarea id="message" placeholder="Escribe tu consulta..."></textarea>
-            <div class="form-buttons">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Escribe tu email...">
+                </div>
+
+                <aside class="form-right">
+                    <label for="message">Consulta</label><br>
+                    <input type="placeholder" id="message" placeholder="Escribe tu consulta..."></input>
+                </aside>
+            </section>
+
+            <section class="form-btn">
                 <button class="btn-submit">Enviar</button>
                 <button class="btn-cancel">Cancelar</button>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer>
 

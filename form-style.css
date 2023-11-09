@@ -41,63 +41,6 @@
     border: 1px solid white;
 }
 
-/*MAIN*/
-
-main {
-    margin: 3.8125rem auto;
-    display: flex;
-    justify-content: center;
-}
-
-.big-img {
-    display: inline-flexbox;
-    position: relative;
-    margin-right: 3.375rem;
-}
-.img-form {
-    width: 25.875rem;
-}
-.img-group {
-    width: 30.3125rem; 
-    position: absolute;
-    padding:0;
-    margin:0;
-    left: -2.875rem;
-    top: 2rem;
-    z-index: 3;
-}
-.description {
-    display: inline-flexbox;
-    margin-left: 3.375rem;
-    min-width: 6.0625rem;
-}
-.description-h1 {
-    font-size: 78px;
-    margin-top: 1.875rem;
-    color:var(--pink-color);
-    width: 30.75rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-weight: 400;
-    line-height: 3.75rem;
-    font-family: Jost;
-}
-.description p {
-    margin:1.875rem 0 1.875rem 0;
-    font-size: 1.5rem;
-    font-family: Jost;
-}
-.description button {
-    background-color: var(--color-blue);
-    color:white;
-    width: 8.8887rem;
-    height: 3.292rem;
-    border: 0px;
-    border-radius: 50px;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-family: Jost;
-}
 
 /*FORM PAGE*/
 .form-h1 {
