@@ -44,13 +44,17 @@
 
 main {
     width: 100%;
+   display: block;
 }
 
 .main-top {
     width: 100%;
-    padding: 2rem;
+    padding: 3rem ;
+    margin: auto;
     display: flex;
     justify-content: center;
+    
+    
 }
 
 .big-img{
@@ -74,6 +78,7 @@ main {
 
 .description h1{
     width: 60%;
+
     font-size: 65px;
     font-weight: 400;
     color: var(--pink-color);
@@ -115,21 +120,27 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
     bottom: 0;
+    height: 300px;
+  }
   
-    
-}
 .footer-profile{
     display: flex;
     width: 20%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-profile a{
+    width: 100%;
+    text-align: center;
 }
 
 .img-profile {
     margin: auto;
     padding-top: 1em;
-    width: 50%;
+    width: 40%;
 }
 
 .text-profile {
@@ -147,16 +158,13 @@ main {
     font-size: 18px;
     font-weight: 100;
 }
-.text-profile a {
+.text-profile .link-icon {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 600px){
     
-    html{
-        position: relative;
-    }
     body{
         display: flex;
         flex-direction: column;
@@ -181,7 +189,6 @@ main {
 
     .main-top{
         width: 100%;
-        padding: 2rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
