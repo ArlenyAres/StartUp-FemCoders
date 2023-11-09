@@ -3,7 +3,10 @@ main {
     display: flex;
     justify-content: center;
 }
-
+.main-top {
+    margin-top:0;
+    padding-top: 0;
+}
 
 .big-img-profile{
     width: 40%;
@@ -163,5 +166,4 @@ main {
     .main-bottom {
         margin-bottom: 0;   
     }
-    
 }
