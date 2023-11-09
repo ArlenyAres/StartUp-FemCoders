@@ -212,7 +212,7 @@ main {
     }
 
     .footer-mobile{
-        position: sticky;
+        position: stickygit;
         display: flex;
         justify-content: center;
         text-align: center;
