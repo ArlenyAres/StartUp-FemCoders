@@ -39,8 +39,8 @@ main {
 }
 
 .description-profile h1{
-    width: 50%;
-    font-size: 60px;
+    width: 30%;
+    font-size: 54px;
     font-weight: 400;
     color: var(--pink-color);
     line-height: 4rem;

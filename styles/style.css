@@ -49,10 +49,11 @@ main {
 
 .main-top {
     width: 100%;
-    padding: 2rem 2rem 7rem 2rem;
+    padding: 3rem ;
     margin: auto;
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -120,13 +121,20 @@ main {
     display: flex;
     justify-content: space-between;
     bottom: 0;
-    height: auto;
+    height: 300px;
   }
   
 .footer-profile{
     display: flex;
     width: 20%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-profile a{
+    width: 100%;
+    text-align: center;
 }
 
 .img-profile {
@@ -150,7 +158,7 @@ main {
     font-size: 18px;
     font-weight: 100;
 }
-.text-profile a {
+.text-profile .link-icon {
     color: black;
     font-size: 30px;
 }
