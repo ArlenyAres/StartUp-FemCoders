@@ -197,9 +197,7 @@ footer {
     .main-top {
         margin-bottom: 0;
     }
-    .main-bottom {
-        display: none;  
-    }
+   
     footer {
         display: inline-flex;
         width:100%;
