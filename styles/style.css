@@ -51,7 +51,6 @@ main {
     padding: 2rem;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
 }
 
 .big-img{
@@ -172,6 +171,7 @@ main {
         justify-content: center;
         padding: 1rem;
         width: 100%;
+        height: auto;
     }
 
     .img-logo{
@@ -208,11 +208,12 @@ main {
         justify-content: space-between;
         flex-wrap: wrap;
         position: static;
-        height: auto;   
+        height: auto;
+        margin-bottom: 8rem;   
     }
 
     .footer-mobile{
-        position: stickygit;
+        position: sticky;
         display: flex;
         justify-content: center;
         text-align: center;
