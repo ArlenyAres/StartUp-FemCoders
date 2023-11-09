@@ -36,10 +36,9 @@ label {
 
 }
 
-input,
-textarea {
+input {
     font-family: Jost;
-    font-size: 9px;
+    font-size: 15px;
     border-radius: 22px;
     background: rgba(225, 152, 152, 0.50);
     color: rgba(0, 0, 0, 0.50);
@@ -81,4 +80,41 @@ button {
     color: #FFF;
     border: none;
     padding: 0.3rem;
+}
+
+@media only screen and (max-width: 600px){
+
+    .main-bottom{
+        display: none;
+    }
+
+    .form-body {    
+        width: 60%;
+        padding: 0rem;
+        height: auto;
+    }
+
+    .form-h1 {
+        margin: 3rem 0rem 3rem 0rem;
+        font-size: 2.7rem;
+
+    }
+
+    .form-input {
+        flex-direction: column;
+        width: 15rem;
+    }
+
+    input {
+        margin: 0.4rem;
+        padding: 0.4rem;
+    }
+
+    .form-btn {
+        margin: 0.3rem 40rem 7rem 46rem;
+        display: flex;
+
+    }
+
+
 }
