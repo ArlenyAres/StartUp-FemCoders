@@ -1,0 +1,207 @@
+main {
+    width: 100%;
+    justify-content: center;
+}
+.main-top {
+    display: flex;
+    align-content: flex-end;
+    margin-bottom: 53px;
+    padding: auto;
+}
+header {
+    margin-bottom: 0;
+}
+.big-img-profile{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+      
+    
+}
+
+.description-people{
+    width: 50%;
+}
+.big-img-profile{
+    margin: auto;
+    width: 40vh;
+}
+
+.profile-img{
+    width: 38vh;
+    position: absolute;
+    margin-top: .9rem;
+}
+
+.description-profile{
+    width: 80%;
+    
+}
+.description-btn{
+    display: flex;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.description-profile h1{
+    width: 50%;
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--pink-color);
+    line-height: 4rem;
+}
+
+.description-profile h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.description-profile p{
+    font-size: 16px;
+    color: black;
+    margin-top: 1rem;
+}
+
+.description-btn button {
+    background-color:  var(--color-blue);
+    border: none;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+    font-size: 14px;
+    width: 9rem;
+    height: 2.3rem;
+    font-size: 1rem;    
+}
+
+.description-btn a {
+    font-size: 2rem;
+    color: black;    
+}
+@media only screen and (min-width: 1025px){
+.big-img-profile {
+    position: relative;
+}
+footer {
+    display: none;
+}
+.main-top {
+    flex-direction: row;
+}
+}
+@media only screen and (max-width: 1025px) {
+    .main-bottom {
+        margin-bottom: 0;
+        padding-bottom:0;
+    }
+    footer {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 601px){.main-top {
+    flex-direction: row;
+}}
+@media only screen and (max-width: 600px){
+    html {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    header {
+        width:100%;
+    }
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .big-img-profile{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .description-profile h2 {
+        display: none;
+    }
+    .description-people{
+        width: 100%;
+    }
+    .big-img-profile{
+        width: 40vh;
+        margin: auto;
+       
+    }
+    
+    .profile-img{
+        width: 38vh;
+        position: absolute;
+        margin-top: .9rem;
+    }
+    
+    .description-profile{
+        width: 100%;
+        
+    }
+    .description-btn{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .description-profile h1{
+        width: 60%;
+        font-size: 65px;
+        font-weight: 400;
+        color: var(--pink-color);
+        line-height: 4rem;
+    }
+    
+    .description-profile h2{
+        font-size: 22px;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .description-profile p{
+        font-size: 18px;
+        color: black;
+        margin-top: 1rem;
+    }
+    
+    .description-btn button {
+        background-color:  var(--color-blue);
+        border: none;
+        text-align: center;
+        border-radius: 2rem;
+        color: white;
+        font-size: 14px;
+        width: 10rem;
+        height: 2.3rem;
+        font-size: 1rem;    
+    }
+    
+    .description-btn a {
+        font-size: 2rem;
+        color: black;    
+    }
+    .main-top {
+        margin-bottom: 0;
+    }
+    .main-bottom {
+        display: none;  
+    }
+    footer {
+        display: inline-flex;
+        width:100%;
+    }
+}
