@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: center;
       
+    
 }
 
 .description-people{
@@ -46,21 +47,21 @@ header {
 }
 
 .description-profile h1{
-    width: 60%;
-    font-size: 65px;
+    width: 50%;
+    font-size: 60px;
     font-weight: 400;
     color: var(--pink-color);
     line-height: 4rem;
 }
 
 .description-profile h2{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     color: black;
 }
 
 .description-profile p{
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     margin-top: 1rem;
 }
