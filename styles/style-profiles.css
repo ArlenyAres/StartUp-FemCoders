@@ -82,7 +82,6 @@ main {
         flex-direction: column;
     }
     
-    
     .big-img-profile{
         width: 40%;
         display: flex;
@@ -157,7 +156,9 @@ main {
     }
 
     .main-bottom {
-        margin-bottom: 0;   
+        display: none;
+         
     }
+
     
 }
