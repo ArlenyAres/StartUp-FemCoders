@@ -78,3 +78,90 @@ main {
     color: black;    
 }
 
+@media only screen and (max-width: 600px){
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    .big-img-profile{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+          
+    }
+    
+    .description-people{
+        width: 100%;
+    }
+    .big-img-profile{
+        width: 40vh;
+        margin: auto;
+       
+    }
+    
+    .profile-img{
+        width: 38vh;
+        position: absolute;
+        margin-top: .9rem;
+    }
+    
+    .description-profile{
+        width: 100%;
+        
+    }
+    .description-btn{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .description-profile h1{
+        width: 60%;
+        font-size: 65px;
+        font-weight: 400;
+        color: var(--pink-color);
+        line-height: 4rem;
+    }
+    
+    .description-profile h2{
+        font-size: 22px;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .description-profile p{
+        font-size: 18px;
+        color: black;
+        margin-top: 1rem;
+    }
+    
+    .description-btn button {
+        background-color:  var(--color-blue);
+        border: none;
+        text-align: center;
+        border-radius: 2rem;
+        color: white;
+        font-size: 14px;
+        width: 10rem;
+        height: 2.3rem;
+        font-size: 1rem;    
+    }
+    
+    .description-btn a {
+        font-size: 2rem;
+        color: black;    
+    }
+
+    .main-bottom {
+        margin-bottom: 0;   
+    }
+    
+}
