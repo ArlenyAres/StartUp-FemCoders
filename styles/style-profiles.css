@@ -1,85 +1,167 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
 .big-img-profile{
     width: 40%;
     display: flex;
     justify-content: center;
     position: relative;
       
-} 
+}
 
-.description{
+.description-people{
     width: 50%;
 }
-.img-form-profile, .img-group-profile{
+.big-img-profile{
     width: 40vh;
+    margin: auto;
+   
 }
 
-.img-group{
-    margin-top: 2rem;
+.profile-img{
+    width: 38vh;
+    position: absolute;
+    margin-top: .9rem;
 }
 
-
-/* .big-img-profile {
+.description-profile{
+    width: 80%;
+    
+}
+.description-btn{
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-    height: 350px;
-    padding: 0px 50px 0px 100px;
-
+    width: 30%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
-.img-form-profile {
-    position: absolute;
-    align-content: center;
-    width: 25%;
-}
-
-.profile-img {
-    position: absolute;
-    height: 320px;
-}
-.description-people {
-    display: inline-flexbox;
-    margin-left: 4rem;
-    min-width: 6.0625rem;
-}
-.description-profile h1 {
-    font-size: 78px;
-    color:var(--pink-color);
-    width: 30.75rem;
-    margin-bottom: 0;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+.description-profile h1{
+    width: 60%;
+    font-size: 65px;
     font-weight: 400;
-    line-height: 3.75rem;
-    
+    color: var(--pink-color);
+    line-height: 4rem;
 }
-.description-profile p {
-    
-    font-size: 1.0rem;
-    font-family: Jost;
-    padding: 0rem 10rem 1.5rem 0rem;
-} */
 
-.description-btn {
-    display: flex;
+.description-profile h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+
+.description-profile p{
+    font-size: 18px;
+    color: black;
+    margin-top: 1rem;
 }
 
 .description-btn button {
-    background-color: var(--color-blue);
-    color:white;
-    width: 8rem;
-    padding: .5rem 1rem;
+    background-color:  var(--color-blue);
+    border: none;
     text-align: center;
     border-radius: 2rem;
-    margin-left: 2em;
+    color: white;
     font-size: 14px;
-    border: 1px solid white;
-    
+    width: 9rem;
+    height: 2.3rem;
+    font-size: 1rem;    
 }
 
-.description-btn i {
-    
-    color: black;
-    font-size: 40px;
+.description-btn a {
+    font-size: 2rem;
+    color: black;    
 }
 
+@media only screen and (max-width: 600px){
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    .big-img-profile{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+          
+    }
+    
+    .description-people{
+        width: 100%;
+    }
+    .big-img-profile{
+        width: 40vh;
+        margin: auto;
+       
+    }
+    
+    .profile-img{
+        width: 38vh;
+        position: absolute;
+        margin-top: .9rem;
+    }
+    
+    .description-profile{
+        width: 100%;
+        
+    }
+    .description-btn{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .description-profile h1{
+        width: 60%;
+        font-size: 65px;
+        font-weight: 400;
+        color: var(--pink-color);
+        line-height: 4rem;
+    }
+    
+    .description-profile h2{
+        font-size: 22px;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .description-profile p{
+        font-size: 18px;
+        color: black;
+        margin-top: 1rem;
+    }
+    
+    .description-btn button {
+        background-color:  var(--color-blue);
+        border: none;
+        text-align: center;
+        border-radius: 2rem;
+        color: white;
+        font-size: 14px;
+        width: 10rem;
+        height: 2.3rem;
+        font-size: 1rem;    
+    }
+    
+    .description-btn a {
+        font-size: 2rem;
+        color: black;    
+    }
+
+    .main-bottom {
+        margin-bottom: 0;   
+    }
+    
+}
