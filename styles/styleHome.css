@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --pink-color: #E19898;
+    --color-blue:#4D3C77;
+    --color-purple:#3F1D38;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
 /*HEADER*/
 
 .header{
@@ -179,7 +202,7 @@ main {
         justify-content: center;
         padding: 1rem;
         width: 100%;
-        
+        height: auto;
     }
 
     .img-logo{
@@ -192,8 +215,7 @@ main {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-left:1.5rem;
-        
+        margin: auto;
     }
 
     .big-img{
@@ -217,7 +239,7 @@ main {
         flex-wrap: wrap;
         position: static;
         height: auto;
-        margin-bottom: 8rem;   
+         
     }
 
     .footer-mobile{
