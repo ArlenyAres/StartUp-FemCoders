@@ -1,0 +1,65 @@
+
+.big-img-profile {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 350px;
+    padding: 0px 50px 0px 100px;
+
+}
+
+.img-form-profile {
+    position: absolute;
+    align-content: center;
+    width: 25%;
+}
+
+.profile-img {
+    position: absolute;
+    height: 320px;
+}
+.description-people {
+    display: inline-flexbox;
+    margin-left: 4rem;
+    min-width: 6.0625rem;
+}
+.description-profile h1 {
+    font-size: 78px;
+    color:var(--pink-color);
+    width: 30.75rem;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-weight: 400;
+    line-height: 3.75rem;
+    
+}
+.description-profile p {
+    
+    font-size: 1.0rem;
+    font-family: Jost;
+    padding: 0rem 10rem 1.5rem 0rem;
+}
+
+.description-btn {
+    display: flex;
+}
+
+.description-btn button {
+    background-color: var(--color-blue);
+    color:white;
+    width: 8rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    margin-left: 2em;
+    font-size: 14px;
+    border: 1px solid white;
+    
+}
+
+.description-btn i {
+    
+    color: black;
+    font-size: 40px;
+}
