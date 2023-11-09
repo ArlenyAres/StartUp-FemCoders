@@ -219,7 +219,7 @@ main {
     }
 
     .footer-mobile{
-        position: sticky;
+        position: static;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -228,6 +228,7 @@ main {
         width: 100%;
         background-color: var(--color-purple);
         padding: 2rem;
+        
     }
 
 

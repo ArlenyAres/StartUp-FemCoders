@@ -84,14 +84,25 @@ button {
 
 @media only screen and (max-width: 600px){
 
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
     .main-bottom{
         display: none;
     }
 
     .form-body {    
-        width: 60%;
+        width: 70%;
         padding: 0rem;
-        height: auto;
+        height: 100%;
+        margin-bottom: 5rem;
+        
     }
 
     .form-h1 {
