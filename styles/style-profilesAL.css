@@ -1,12 +1,21 @@
 main {
     width: 100%;
+    justify-content: center;
 }
-
-
+.main-top {
+    display: flex;
+    align-content: flex-end;
+    margin-bottom: 53px;
+    padding: auto;
+}
+header {
+    margin-bottom: 0;
+}
 .big-img-profile{
     width: 40%;
     display: flex;
     justify-content: center;
+      
     
 }
 
@@ -14,9 +23,8 @@ main {
     width: 50%;
 }
 .big-img-profile{
-    width: 40vh;
     margin: auto;
-   
+    width: 40vh;
 }
 
 .profile-img{
@@ -39,8 +47,8 @@ main {
 }
 
 .description-profile h1{
-    width: 30%;
-    font-size: 54px;
+    width: 50%;
+    font-size: 60px;
     font-weight: 400;
     color: var(--pink-color);
     line-height: 4rem;
@@ -74,24 +82,54 @@ main {
     font-size: 2rem;
     color: black;    
 }
-
+@media only screen and (min-width: 1025px){
+.big-img-profile {
+    position: relative;
+}
+footer {
+    display: none;
+}
+.main-top {
+    flex-direction: row;
+}
+}
+@media only screen and (max-width: 1025px) {
+    .main-bottom {
+        margin-bottom: 0;
+        padding-bottom:0;
+    }
+    footer {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 601px){.main-top {
+    flex-direction: row;
+}}
 @media only screen and (max-width: 600px){
+    html {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    header {
+        width:100%;
+    }
     main {
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    
-    
     .big-img-profile{
         width: 40%;
         display: flex;
         justify-content: center;
         position: relative;
-          
     }
-    
+    .description-profile h2 {
+        display: none;
+    }
     .description-people{
         width: 100%;
     }
@@ -156,9 +194,12 @@ main {
         font-size: 2rem;
         color: black;    
     }
-
-    .main-bottom {
-        margin-bottom: 0;   
+    .main-top {
+        margin-bottom: 0;
     }
-    
+   
+    footer {
+        display: inline-flex;
+        width:100%;
+    }
 }
